@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>ES6 frontend</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/pure.min.css"/>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/app.css"/>
+</head>
+
+<body>
+
+<div class="pure-g product-list">
+    <div id="product-template" class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 product-template hidden">
+        <div class="l-box">
+            <h2 class="product-title">
+                <a href="" class="product-title-link"></a>
+            </h2>
+            <div class="product-button"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pure-g category-list">
+    <div id="category-template" class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4 category-template hidden">
+        <div class="l-box">
+            <h2 class="category-title">
+                <a href="" class="category-title-link"></a>
+            </h2>
+            <div class="category-button"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pure-g product-details">
+    <div id="product-details" class="pure-u-1 hidden">
+        <div class="l-box">
+            <h2 class="product-title"></h2>
+            <div class="product-description"></div>
+            <div class="product-price"></div>
+            <div class="product-category">
+                <a href="" class="category-title-link"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="app">
+    <div id="menu">
+        <ul>
+            <li>
+                <a class="url" href="/category-list">Categories</a>
+            </li>
+            <li>
+                <a class="url" href="/product-list">Products</a>
+            </li>
+        </ul>
+
+    </div>
+    <div id="content">
+
+    </div>
+</div>
+</body>
+
+<script src="dist/js/app.js"></script>
+</html>
